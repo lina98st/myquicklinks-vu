@@ -1,0 +1,113 @@
+@import './base.css';
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.quicklinks-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif; 
+  font-weight: bold;
+  color: #333;
+}
+
+.links a {
+  display: flex;
+  flex-direction: column;
+text-decoration: none;
+color: white;
+background-color: #9755b1;
+padding: 10px 20px;
+margin: 15px 5px;
+border-radius: 5px;
+font-family: 'Poppins', sans-serif; 
+font-size: 18px;
+transition: background-color 0.3s ease;
+
+}
+
+.links a:hover {
+  background-color: #781c92;
+}
+
+
+.mein-foto {
+  width: 150px; /* Breite des Bildes */
+  height: 150px; /* Höhe des Bildes */
+  border-radius: 50%; /* Rundet die Ecken ab, 50% macht das Bild kreisförmig */
+  object-fit: cover; /* Schneidet das Bild, um es perfekt zu füllen */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Schatten um das Bild */
+  margin: 20px 0; /* Abstand um das Bild herum */
+}
+
+/*CSS für Dark Mode Button*/
+
+/* Light Mode */
+.quicklinks-container.light {
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  color: #333;
+}
+
+/* Dark Mode */
+.quicklinks-container.dark {
+  background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(50, 50, 50, 1) 100%);
+  color: white;
+}
+
+/* Links im Light Mode */
+.links a {
+  color: white;
+  background-color: #9755b1;
+  transition: background-color 0.3s ease;
+}
+
+/* Links im Dark Mode */
+.quicklinks-container.dark .links a {
+  background-color: #444;
+}
+
+/* Hover-Effekt für beide Modi */
+.links a:hover {
+  background-color: #781c92;
+}
+
+/* Button-Styling */
+.toggle-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #9755b1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button im Dark Mode */
+.quicklinks-container.dark .toggle-button {
+  background-color: #444;
+}
+
+/* Button Hover */
+.toggle-button:hover {
+  background-color: #781c92;
+}
