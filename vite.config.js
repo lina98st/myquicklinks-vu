@@ -3,7 +3,7 @@ import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 
 export default defineConfig({
-  base: '/myquicklinks-vue/',  // Name deines Repos
+  base: '/myquicklinks-vu/',  // Name deines Repos
   plugins: [vue()],
   resolve: {
     alias: {
