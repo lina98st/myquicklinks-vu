@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/myquicklinks-vue/', // Achte darauf, dass dies dem Repository-Namen entspricht
+  base: '/myquicklinks-vu/', // Achte darauf, dass dies dem Repository-Namen entspricht
   plugins: [vue()],
   resolve: {
     alias: {
