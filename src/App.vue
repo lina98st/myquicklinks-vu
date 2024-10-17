@@ -38,7 +38,6 @@ Switch to {{ darkMode ? 'Light' : 'Dark' }} Mode
           Linkedin
         </a>
       </div>
-      </div>
 </template>
 
 <style scoped>
