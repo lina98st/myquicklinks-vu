@@ -37,9 +37,6 @@ Switch to {{ darkMode ? 'Light' : 'Dark' }} Mode
         <a href="https://www.linkedin.com/in/alina-ste/" target="_blank" rel="noopener noreferrer">
           Linkedin
         </a>
-        <a href="https://www.instagram.com/alina.devlife/?hl=de" target="_blank" rel="noopener noreferrer">
-          Instagram
-        </a>
       </div>
       </div>
 </template>
