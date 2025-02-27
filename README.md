@@ -1,26 +1,35 @@
-# myquicklinks-vue
+# 🔗 MyQuickLinks – Eine Linktree-Alternative mit Vue.js  
 
-This template should help get you started developing with Vue 3 in Vite.
+Eine einfache und schnelle **Linktree-Alternative**, um alle wichtigen Links an einem Ort zu bündeln.  
+Ursprünglich für **LinkedIn** erstellt, um meine Seiten übersichtlich zu verlinken.  
+Erstellt mit **Vue.js 3 (SFC)**, **Vite**, **HTML** und **CSS**.  
 
-## Recommended IDE Setup
+## 🚀 Live-Demo  
+👉 **[MyQuickLinks ansehen](https://lina98st.github.io/myquicklinks-vu/](https://lina98st.github.io/myquicklinks-vu/))**  
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 📸 Screenshots  
+ <img width="1213" alt="Bildschirmfoto 2025-02-27 um 13 06 37" src="https://github.com/user-attachments/assets/fc939913-feb9-4c12-ae06-4af3aa22797c" />
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## 🛠 Technologien  
+- **Vue.js 3 (Composition API & Single File Components)**  
+- **Vite** für schnellen Build & Development Server  
+- **CSS3** für das Styling  
+- **LocalStorage** (falls zum Speichern von Links verwendet)  
 
-## Project Setup
+## ✅ Voraussetzungen  
+Falls du das Projekt lokal testen möchtest, benötigst du:  
+- **Node.js** (empfohlen: v16+)  
+- **npm** oder **yarn**  
 
-```sh
+## 🔧 Installation & Nutzung  
+Falls du MyQuickLinks lokal nutzen möchtest:  
+```bash
+git clone https://github.com/lina98st/myquicklinks-vu.git
+cd myquicklinks-vu
 npm install
-```
+npm run dev  # Startet den Entwicklungsserver
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
 
 ### Compile and Minify for Production
 
