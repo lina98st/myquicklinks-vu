@@ -15,7 +15,6 @@ Erstellt mit **Vue.js 3 (SFC)**, **Vite**, **HTML** und **CSS**.
 - **Vue.js 3 (Composition API & Single File Components)**  
 - **Vite** für schnellen Build & Development Server  
 - **CSS3** für das Styling  
-- **LocalStorage** (falls zum Speichern von Links verwendet)  
 
 ## ✅ Voraussetzungen  
 Falls du das Projekt lokal testen möchtest, benötigst du:  
